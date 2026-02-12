@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: task-optimization-system
+    env: python
+    pythonVersion: 3.9
+    startCommand: streamlit run streamlit_app.py
+    staticPublicPath: .
+    
+    # Environment variables
+    envVars:
+      - key: STREAMLIT_SERVER_PORT
+        value: 10000
+      - key: STREAMLIT_SERVER_ADDRESS
+        value: 0.0.0.0
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: true
+      - key: STREAMLIT_SERVER_ENABLE_CORS
+        value: false
+      - key: STREAMLIT_LOGGER_LEVEL
+        value: info
+    
+    # Build settings
+    buildCommand: pip install -r requirements.txt
+    
+    # Service configuration
+    plan: free
+    region: oregon
