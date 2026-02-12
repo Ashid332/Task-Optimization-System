@@ -2,6 +2,9 @@
 
 **An Intelligent Task Scheduling and Optimization Platform**
 
+🟢 **[VIEW LIVE DEMO](https://task-optimization-system.onrender.com)** 🚀
+
+
 ## 📋 Project Overview
 
 Task-Optimization-System is an advanced scheduling and optimization platform designed to help teams and organizations efficiently manage complex workflows and task execution. Using artificial intelligence, constraint-solving algorithms, and smart scheduling techniques, this system automatically optimizes how tasks are ordered, assigned, and executed to minimize time, reduce resource wastage, and ensure deadline compliance.
@@ -735,7 +738,7 @@ If you find any issues, [file a GitHub issue](https://github.com/Ashid332/Task-O
 
 The application is ready for deployment on Render.com with the `render.yaml` configuration file included in the repository.
 
-**Current Deployment Status**: ⏳ In Progress
+**Current Deployment Status**: ✅ LIVE - https://task-optimization-system.onrender.com
 
 **To Deploy Your Own Instance:**
 
