@@ -726,3 +726,51 @@ If you find any issues, [file a GitHub issue](https://github.com/Ashid332/Task-O
 **Status**: Active Development
 
 ⭐ If you find this project helpful, please give it a star!
+
+
+
+## 🚀 Live Deployment Status
+
+### Deployment on Render.com
+
+The application is ready for deployment on Render.com with the `render.yaml` configuration file included in the repository.
+
+**Current Deployment Status**: ⏳ In Progress
+
+**To Deploy Your Own Instance:**
+
+1. **Go to Render.com**: https://render.com/
+2. **Sign up or Log in** with your GitHub account
+3. **Create a New Web Service**: Click "New" → "Web Service"
+4. **Connect Your GitHub Repository**: Select `Ashid332/Task-Optimization-System`
+5. **Automatic Configuration**: Render will automatically detect and use `render.yaml`
+6. **Deploy**: Click "Create Web Service" and wait for deployment (2-5 minutes)
+7. **Access Your App**: Get your unique URL (e.g., `https://task-optimization-system.onrender.com`)
+
+**Deployment Configuration Includes:**
+- ✅ Python 3.9 Runtime
+- ✅ Streamlit App (streamlit_app.py)
+- ✅ All dependencies (requirements.txt)
+- ✅ Production-ready settings
+- ✅ Free tier support (with limitations)
+
+**Expected Features After Deployment:**
+- Interactive task optimization interface
+- Real-time schedule visualization
+- Performance metrics dashboard
+- CSV import/export functionality
+
+**Important Notes:**
+- Free tier will spin down after 15 minutes of inactivity
+- For production use, consider upgrading to a paid plan
+- Paid plans offer 24/7 uptime and better performance
+
+### Heroku Alternative
+
+You can also deploy using Heroku with the included `Procfile` and `runtime.txt` (Heroku is deprecating their free tier, so Render is recommended).
+
+### Custom Deployment
+
+For Docker or custom server deployments, refer to `DEPLOYMENT.md` for detailed instructions.
+
+---
